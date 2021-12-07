@@ -28,7 +28,12 @@ MySQL 5.7 (usado neste projeto)
 # O projeto está clonado! Agora, é preciso configurar o acesso ao banco de dados MySQL para que o CRUD funcione:
 Abra o arquivo ".env" localizado em "/trabalhowebm2"
 
-Altere os campos "seuUsuario", "suaSenha" e "3306" para condizer com os seus dados pessoais de acesso ao servidor do MySQL Workbench!
+Altere os campos para condizer com os seus dados pessoais de acesso ao servidor do MySQL Workbench!
+
+database.default.hostname = "Hostname do seu banco"
+database.default.database = "Nome do seu banco (Schema)"
+database.default.username = "Nome de usuário do banco"
+database.default.password = "Sua senha do banco"
 
 Agora, é preciso criar um novo banco de dados MySQL para o projeto:
     
